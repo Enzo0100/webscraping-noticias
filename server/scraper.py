@@ -1,4 +1,5 @@
 import requests
+import json
 from bs4 import BeautifulSoup
 
 resposta = requests.get("https://www.infomoney.com.br/ultimas-noticias/")  # Substitua "URL_DO_SITE" pela URL que deseja analisar
