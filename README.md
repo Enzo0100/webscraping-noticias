@@ -1,4 +1,4 @@
-# Webscraping InfoMoney Notícias
+# Servidor Webscraping InfoMoney Notícias
 
 Um script em Python para coletar as últimas notícias do site InfoMoney e seus respectivos links.
 
@@ -16,7 +16,7 @@ Um script em Python para coletar as últimas notícias do site InfoMoney e seus 
 ```
 2. **Navegue até a pasta do projeto**:
 ```
-   cd nome-da-pasta-do-projeto
+   cd 
 ```
 3. **Instale as dependências**:
 ```
