@@ -20,7 +20,7 @@ Um script em Python para coletar as últimas notícias do site InfoMoney e seus 
 ```
 3. **Instale as dependências**:
 ```
-pip install requests beautifulsoup4
+pip install requests bs4
 ```
 
 4. **Execute o script scraper.py (ou o nome que você deu ao arquivo)**:
