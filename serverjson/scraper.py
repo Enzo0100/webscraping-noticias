@@ -21,9 +21,12 @@ resultados = []
 
 for noticia in noticias:
     link = noticia.find('a')
-    if link:
+    data_elemento = noticia.find('span', class_='posted-diff')  # Procura pelo elemento com a classe "posted-diff"
+    
+    if link and data_elemento:
         title = link.get('title')
         href = link.get('href')
-        resultados.append({"title": title, "link": href})
+        data = data_elemento.text.strip()  # Obtém o texto associado ao elemento e remove espaços desnecessários
+        resultados.append({"title": title, "link": href, "data": data})
 
 print(json.dumps(resultados))
