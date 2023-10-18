@@ -28,8 +28,8 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 # Copie o resto dos arquivos do projeto para o container
 COPY . .
 
-# Exponha a porta 3000 para o Express
-EXPOSE 3000
+# Exponha a porta 6060 para o Express
+EXPOSE 6060
 
 # Comando para iniciar o servidor Express
 CMD [ "node", "serverjson.js" ]
